@@ -1,4 +1,4 @@
-/* TODO: SLIDE 31 */
+npm; /* TODO: SLIDE 31 */
 import './u-card.js';
 import './u-mark.js';
 /* TODO: SLIDE 54 */

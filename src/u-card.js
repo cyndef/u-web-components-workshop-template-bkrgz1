@@ -121,10 +121,7 @@ class uCard extends LitElement {
           <!-- TODO: SLIDE 63.1 -->
         </div>
         <div part="body">
-          <!-- TODO: SLIDES 61 & 63.2 -->
-          <h1>Card Heading</h1>
-          <p>Card content.</p>
-          <a href="#">Card Link</a>
+        <slot></slot>
         </div>
     `;
   }
