@@ -119,9 +119,14 @@ class uCard extends LitElement {
     return html`
         <div part="image">
           <!-- TODO: SLIDE 63.1 -->
+          <slot name="image"></slot>
         </div>
         <div part="body">
         <slot></slot>
+        <slot name="heading"></slot>
+        <slot name="subheading"></slot>
+        <slot name="content"></slot>
+        <slot name="link"></slot>
         </div>
     `;
   }
